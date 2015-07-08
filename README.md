@@ -1,5 +1,7 @@
 Arch-Linux-for-ARM-Chromebook
-This was made for those tired of chrubuntu/crouton and mainly because of those dependencies that our ARM chromebooks can't support, so use this script and get it installed on your sd card or usb for tons of greatness
+This was made for those tired of chrubuntu/crouton and mainly because of those dependencies that our ARM chromebooks can't support, so use this script and get it installed on your sd card or usb for tons of greatness!!!!! And the best part is that it's super easy to do!!! It's not hard at all!!!!!
+
+Here are the steps:
 
 1) Make sure in Dev mode obviously lol and can boot from usb or sd devices
 
