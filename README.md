@@ -11,7 +11,7 @@ Here are the steps:
 
 4) Make sure you're root
 
-5) Download this script: wget https://goo.gl/79yZ6S
+5) Download this script: wget https://goo.gl/79yZ6S There's two scripts the Z9yZ6S and Arch.sh, they're both the same 
 
 6) Run while in ROOT
 
