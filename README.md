@@ -21,28 +21,28 @@ Username:root
 Password:root
 
 To add another user use:
-#useradd URNAME
+root@alarm#useradd URNAME
 
 To set user password use (root@alarm):
-passwd URNAME
+root@alarm#passwd URNAME
 
 To connect to wifi use:
-wifi-menu mlan0
+root@alarm#wifi-menu mlan0
 
 Then update:
- #pacman -Syu
+root@alarm#pacman -Syu
 
 To use graphical GUI you'll need the following installed:
-                        XORG
-#pacman -S xorg-server xorg-xinit xorg-server-utils mesa xf86-video-fbdev xf86-input-synaptics unzip
+                        XORG:
+root@alarm#pacman -S xorg-server xorg-xinit xorg-server-utils mesa xf86-video-fbdev xf86-input-synaptics unzip
 
                       Some type of Graphical login:  (I chose lxdm because its the best to use thus far)
-#pacman -S lxdm           Then enable by typing systemctl enable lxdm(or whatever login you chose)
+root@alarm#pacman -S lxdm           Then enable by typing systemctl enable lxdm(or whatever login you chose)
 
                       Lastly install an desktop environment (I chose Gnome because it runs great!!!)
-#pacman -S gnome gnome-extra
+root@alarm#pacman -S gnome gnome-extra
 
 Reboot by typing in:
-#reboot (Obviously right!!!!?)
+root@alarm#reboot (Obviously right!!!!?)
 
 Enjoy your desktop environment!!!!! I'll leave audio to you tho, didn't really feel like melting my speakers today
