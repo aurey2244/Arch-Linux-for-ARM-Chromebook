@@ -30,14 +30,14 @@ To connect to wifi use:
 wifi-menu mlan0
 
 Then update:
-#pacman -Syu
+ #pacman -Syu
 
 To use graphical GUI you'll need the following installed:
                         XORG
 #pacman -S xorg-server xorg-xinit xorg-server-utils mesa xf86-video-fbdev xf86-input-synaptics unzip
 
                       Some type of Graphical login:  (I chose lxdm because its the best to use thus far)
-#pacman -S lxdm           THen enable by typing systemctl enable lxdm(or whatever login you chose)
+#pacman -S lxdm           Then enable by typing systemctl enable lxdm(or whatever login you chose)
 
                       Lastly install an desktop environment (I chose Gnome because it runs great!!!)
 #pacman -S gnome gnome-extra
