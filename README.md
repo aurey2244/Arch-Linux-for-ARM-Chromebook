@@ -52,3 +52,13 @@ Reboot by typing in:
 #reboot (Obviously right!!!!?)
 
 Enjoy your desktop environment!!!!! I'll leave audio to you tho, didn't really feel like melting my speakers today
+<br>
+<br>
+An update starting as of today Oct 30 2015
+<br>
+<p>
+You can now install Arch linux on you're chromebook as the the new main os, almost uninstalling chrome os "but not quite as recovery is still availible" you will need to partition chromebook with the script to install chrubuntu first, then after the chromebook is done repairing itself download this script and use mmcblk0p7 as the main place to store the os when it ask you "what disk would like to install on?" and for the second question use mmcblk0p6. That's it!! Arch Linux will be installed as the main os, but be careful as i haven't figured out a way to revert back soooo.....
+<br>
+<B>MAKE SURE U HAVE A BACKUP, ITS FOR YOUR OWN GOOD!!!!</B>
+<br>
+If you don't want Arch installed anymore just plug your backup usb in and hit esc+refresh+power, let recovery do its thang and baam chrome os is back to normal, have fun!!!
