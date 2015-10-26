@@ -1,3 +1,4 @@
+<bgcolor=red>
 Arch-Linux-for-ARM-Chromebook
 This was made for those tired of chrubuntu/crouton and mainly because of those dependencies that our ARM chromebooks can't support, so use this script and get it installed on your sd card or usb for tons of greatness!!!!! And the best part is that it's super easy to do!!! It's not hard at all!!!!!
 
@@ -37,9 +38,9 @@ Then update:
 #pacman -Syu
 
 To use graphical GUI you'll need the following installed:
-                        The Xorg properties
-        Copy this line below
-                                #pacman -S xorg-server xorg-xinit xorg-server-utils mesa xf86-video-fbdev xf86-input-synaptics unzip
+<br>                        The Xorg properties       Copy this line below </br>
+<br>
+<text=blue><small>#pacman -S xorg-server xorg-xinit xorg-server-utils mesa xf86-video-fbdev xf86-input-synaptics unzip </small>
 
                       Some type of Graphical login:  (I chose lxdm because its the best to use thus far)
 #pacman -S lxdm           Then enable by typing systemctl enable lxdm(or whatever login you chose)
