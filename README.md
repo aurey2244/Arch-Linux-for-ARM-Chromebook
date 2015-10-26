@@ -47,10 +47,10 @@ To use graphical GUI you'll need the following installed:
 <text=blue><small>#pacman -S xorg-server xorg-xinit xorg-server-utils mesa xf86-video-fbdev xf86-input-synaptics unzip </small>
 
                       Some type of Graphical login:  (I chose lxdm because its the best to use thus far)
-#pacman -S lxdm           Then enable by typing systemctl enable lxdm(or whatever login you chose)
+<small>#pacman -S lxdm           Then enable by typing systemctl enable lxdm(or whatever login you chose)</small>
 
                       Lastly install an desktop environment (I chose Gnome because it runs great!!!)
-#pacman -S gnome gnome-extra
+<small>#pacman -S gnome gnome-extra</small>
 
 Reboot by typing in:
 #reboot (Obviously right!!!!?)
