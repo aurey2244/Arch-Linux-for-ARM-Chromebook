@@ -26,16 +26,20 @@ Password:root
 URNAME=whatever u want it to be named
 
 To add another user use:
-#useradd URNAME
+<br>
+<small>#useradd URNAME</small>
 
 To set user password use:
-#passwd URNAME
+<br>
+<small>#passwd URNAME</small>
 
 To connect to wifi use:
-#wifi-menu mlan0
+<br>
+<small>#wifi-menu mlan0</small>
 
 Then update:
-#pacman -Syu
+<br>
+<small>#pacman -Syu </small>
 
 To use graphical GUI you'll need the following installed:
 <br>                        The Xorg properties       Copy this line below </br>
