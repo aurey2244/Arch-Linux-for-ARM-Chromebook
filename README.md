@@ -39,7 +39,7 @@ Then update:
 To use graphical GUI you'll need the following installed:
                         The Xorg properties
         Copy this line below
-        #pacman -S xorg-server xorg-xinit xorg-server-utils mesa xf86-video-fbdev xf86-input-synaptics unzip
+                                #pacman -S xorg-server xorg-xinit xorg-server-utils mesa xf86-video-fbdev xf86-input-synaptics unzip
 
                       Some type of Graphical login:  (I chose lxdm because its the best to use thus far)
 #pacman -S lxdm           Then enable by typing systemctl enable lxdm(or whatever login you chose)
